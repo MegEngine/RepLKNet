@@ -1,4 +1,4 @@
-# [RepLKNet] (CVPR 2022)
+# RepLKNet (CVPR 2022)
 
 This is the official MegEngine implementation of **RepLKNet**, from the following CVPR-2022 paper:
 
