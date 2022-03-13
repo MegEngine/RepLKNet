@@ -1,4 +1,4 @@
-# [RepLKNet] (CVPR 2022)(https://arxiv.org/abs/2201.03545)
+# [RepLKNet] (CVPR 2022)
 
 This is the official MegEngine implementation of **RepLKNet**, from the following CVPR-2022 paper:
 
@@ -24,14 +24,14 @@ Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs.
 
 ### ImageNet-22K Models
 
-| name | resolution |acc | #params | FLOPs | 22k model | 1k model |
+| name | resolution |acc | #params | FLOPs | 22K model | 1K model |
 |:---:|:---:|:---:|:---:| :---:| :---:|:---:|
 
 
 
 ### MegData-73M Models
-| name | resolution |acc@1 | #params | FLOPs | MegData-73M model | 1k model |
-|:---:|:---:|:---:|:---:| :---:|:---:|
+| name | resolution |acc@1 | #params | FLOPs | MegData-73M model | 1K model |
+|:---:|:---:|:---:|:---:| :---:| :---:|:---:|
 
 
 ## Installation of MegEngine
