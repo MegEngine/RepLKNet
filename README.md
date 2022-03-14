@@ -4,6 +4,8 @@ This is the official MegEngine implementation of **RepLKNet**, from the followin
 
 Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs.
 
+The [paper](https://github.com/megvii-research/RepLKNet/blob/main/replknet-arxiv.pdf) is still being processed by arXiv. You may download it from this repo.
+
 ## Other implementations
 
 | framework | link |
