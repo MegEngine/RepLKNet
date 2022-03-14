@@ -50,7 +50,7 @@ Please check the [HomePage](https://github.com/MegEngine/MegEngine).
 
 
 ## Training
-See [TRAINING.md](TRAINING.md) for training and fine-tuning instructions.
+
 
 ## License
 This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
