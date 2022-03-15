@@ -4,15 +4,16 @@ This is the official MegEngine implementation of **RepLKNet**, from the followin
 
 Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs.
 
-The [paper](https://github.com/megvii-research/RepLKNet/blob/main/replknet-arxiv.pdf) is still being processed by arXiv. You may download it from this repo.
+The paper is released on arXiv: https://arxiv.org/abs/2203.06717.
 
 ## Other implementations
 
 | framework | link |
 |:---:|:---:|
-|PyTorch|https://github.com/DingXiaoH/RepLKNet-pytorch|
-|Tensorflow|  |
-|PaddlePaddle  | |
+|PyTorch (official)|https://github.com/DingXiaoH/RepLKNet-pytorch|
+|Tensorflow| re-implementations are welcomed |
+|PaddlePaddle  | re-implementations are welcomed |
+| ... | |
 
 ## Catalog
 - [ ] Model code
