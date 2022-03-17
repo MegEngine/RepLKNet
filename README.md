@@ -16,9 +16,9 @@ The paper is released on arXiv: https://arxiv.org/abs/2203.06717.
 | ... | |
 
 ## Catalog
-- [ ] Model code
-- [ ] MegEngine pretrained models
-- [ ] MegEngine training code
+- [x] Model code
+- [x] MegEngine pretrained models
+- [x] MegEngine training code
 - [ ] MegEngine downstream models
 - [ ] MegEngine downstream code
 
@@ -30,6 +30,7 @@ The paper is released on arXiv: https://arxiv.org/abs/2203.06717.
 
 | name | resolution |acc | #params | FLOPs | download |
 |:---:|:---:|:---:|:---:| :---:|:---:|
+| RepLKNet-31B | 224x224 | 83.58 | 79M | 15.3G | [0de394](https://data.megengine.org.cn/research/replknet/replknet31_base_224_pt1k_basecls.pkl) |
 
 
 ### ImageNet-22K Models
@@ -45,13 +46,40 @@ The paper is released on arXiv: https://arxiv.org/abs/2203.06717.
 
 
 ## Installation of MegEngine
-Please check the [HomePage](https://github.com/MegEngine/MegEngine).
+```bash
+pip3 install megengine -f https://megengine.org.cn/whl/mge.html --user
+```
+For more details, please check the [HomePage](https://github.com/MegEngine/MegEngine).
+
+## Installation of BaseCls
+
+[BaseCls](https://github.com/megvii-research/basecls) is an image classification framework built upon MegEngine.
+We ultilize BaseCls for ImageNet pretraining and finetuning.
+
+```bash
+pip3 install basecls --user
+```
+
+Training and evaluation are configured through file. All default configurations are listed [here](https://github.com/megvii-research/basecls/blob/main/basecls/configs/base_cfg.py).
 
 ## Evaluation
-
+```bash
+./main_imagenet_test.py -f configs/config_replknet31_base.py -w [weights] batch_size 64 data.val_path /path/to/imagenet/val
+```
 
 ## Training
+```bash
+./main_imagenet_train.py -f configs/config_replknet31_base.py data.train_path /path/to/imagenet/train data.val_path /path/to/imagenet/val
+```
 
+## Benchmark large depth-wise kernels
+
+We can compare the kernel speed of MegEngine against PyTorch. A minimum version of megengine 1.8.2 is required for
+optimized large depth-wise convolutions.
+
+```bash
+./main_benchmark.py
+```
 
 ## License
 This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
