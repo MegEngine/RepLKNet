@@ -64,12 +64,12 @@ Training and evaluation are configured through file. All default configurations 
 
 ## Evaluation
 ```bash
-./main_imagenet_test.py -f configs/config_replknet31_base.py -w [weights] batch_size 64 data.val_path /path/to/imagenet/val
+./main_imagenet_test.py -f configs/replknet31_base_224_pt1k.py -w [weights] batch_size 64 data.val_path /path/to/imagenet/val
 ```
 
 ## Training
 ```bash
-./main_imagenet_train.py -f configs/config_replknet31_base.py data.train_path /path/to/imagenet/train data.val_path /path/to/imagenet/val
+./main_imagenet_train.py -f configs/replknet31_base_224_pt1k.py data.train_path /path/to/imagenet/train data.val_path /path/to/imagenet/val
 ```
 
 ## Benchmark large depth-wise kernels
