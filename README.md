@@ -12,7 +12,6 @@ The paper is released on arXiv: https://arxiv.org/abs/2203.06717.
 |:---:|:---:|
 |PyTorch (official)|https://github.com/DingXiaoH/RepLKNet-pytorch|
 |Tensorflow|https://github.com/shkarupa-alex/tfreplknet|
-|PaddlePaddle  | re-implementations are welcomed |
 | ... | |
 
 ## Catalog
