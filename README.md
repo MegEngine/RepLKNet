@@ -6,13 +6,18 @@ Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs.
 
 The paper is released on arXiv: https://arxiv.org/abs/2203.06717.
 
+## Official PyTorch implementation
+
+The PyTorch code, training script and all of the pretrained PyTorch models, ImageNet-1K models, and Cityscapes/ADE20K/COCO models have been released at https://github.com/DingXiaoH/RepLKNet-pytorch.
+
 ## Other implementations
 
 | framework | link |
 |:---:|:---:|
-|PyTorch (official)|https://github.com/DingXiaoH/RepLKNet-pytorch|
 |Tensorflow|https://github.com/shkarupa-alex/tfreplknet|
 | ... | |
+
+More implementations are welcomed.
 
 ## Catalog
 - [x] Model code
