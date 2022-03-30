@@ -6,9 +6,24 @@ Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs.
 
 The paper is released on arXiv: https://arxiv.org/abs/2203.06717.
 
+If you find the paper or this repository helpful, please consider citing
+
+        @article{replknet,
+        title={Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs},
+        author={Ding, Xiaohan and Zhang, Xiangyu and Zhou, Yizhuang and Han, Jungong and Ding, Guiguang and Sun, Jian},
+        journal={arXiv preprint arXiv:2203.06717},
+        year={2022}
+        }
+
 ## Official PyTorch implementation
 
-The PyTorch code, training script and all of the pretrained PyTorch models, ImageNet-1K models, and Cityscapes/ADE20K/COCO models have been released at https://github.com/DingXiaoH/RepLKNet-pytorch.
+Our official PyTorch repository https://github.com/DingXiaoH/RepLKNet-pytorch contains
+
+1. All of the pretrained PyTorch weights and ImageNet-1K weights.
+2. All of the Cityscapes/ADE20K/COCO weights and code.
+3. An example of using our efficient conv implementation with PyTorch.
+4. Training script and reproducible commands.
+5. A script to visualize the Effective Receptive Field and instructions on obtaining the shape bias.
 
 ## Other implementations
 
