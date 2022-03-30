@@ -19,7 +19,7 @@ If you find the paper or this repository helpful, please consider citing
 
 Our official PyTorch repository https://github.com/DingXiaoH/RepLKNet-pytorch contains
 
-1. All of the pretrained PyTorch weights and ImageNet-1K weights.
+1. All of the pretrained weights and ImageNet-1K weights.
 2. All of the Cityscapes/ADE20K/COCO weights and code.
 3. An example of using our efficient conv implementation with PyTorch.
 4. Training script and reproducible commands.
